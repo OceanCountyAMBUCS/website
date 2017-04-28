@@ -34,12 +34,12 @@ function init() {
 
     for (var x = 0; x < addresses.length; x++) {
         $.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address='+addresses[x]+'&sensor=false', null, function (data) {
-            var p = data.results[0].geometry.location
-            var latlng = new google.maps.LatLng(p.lat, p.lng);
+            // var p = data.results[0].geometry.location39.9491961,-74.116236
+            var latlng = new google.maps.LatLng(39.9491961,-74.116236);
             new google.maps.Marker({
                 position: latlng,
                 map: map,
-                icon: 'images/loc.png'
+                icon: 'images/loc.png',
             });
 
         });
