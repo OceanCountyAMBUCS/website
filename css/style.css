@@ -918,7 +918,7 @@ figure {
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
-  padding: 7em 0;
+  padding: 2em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-about, #fh5co-contact {
@@ -990,7 +990,7 @@ figure {
 }
 #fh5co-contact .contact-info li a {
   font-weight: 400 !important;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgb(69, 83, 255);
 }
 #fh5co-contact .form-control {
   -webkit-box-shadow: none;
